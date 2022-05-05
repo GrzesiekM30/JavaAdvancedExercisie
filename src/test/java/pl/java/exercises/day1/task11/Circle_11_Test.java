@@ -41,7 +41,7 @@ class Circle_11_Test {
         //then
         assertThat(result).isCloseTo(113.04, within(0.5D));
     }
-    
+
     private double round(double value){
         return Math.ceil(value*100)/100;
     }

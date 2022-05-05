@@ -4,7 +4,6 @@ public class Circle implements Movable, Resizable {
     private final Point2D center;
     private final Point2D point;
     private static double radius;
-   // private static double perimeter;
 
 
     public Circle(Point2D center, Point2D point) {
