@@ -3,10 +3,10 @@ package pl.java.exercises.day2.task20_21_22;
 import java.util.Objects;
 
 public class Rectangle extends Shape{
-    private final int a;
-    private final int b;
+    private final float a;
+    private final float b;
 
-    public Rectangle(int a, int b) {
+    public Rectangle(float a, float b) {
         this.a = a;
         this.b = b;
     }

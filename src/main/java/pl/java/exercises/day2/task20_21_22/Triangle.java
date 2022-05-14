@@ -3,11 +3,11 @@ package pl.java.exercises.day2.task20_21_22;
 import java.util.Objects;
 
 public class Triangle extends Shape{
-    private final int a;
-    private final int b;
-    private final int c;
+    private final float a;
+    private final float b;
+    private final float c;
 
-    public Triangle(int a, int b, int c) {
+    public Triangle(float a, float b, float c) {
         this.a = a;
         this.b = b;
         this.c = c;

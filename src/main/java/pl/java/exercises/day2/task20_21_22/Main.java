@@ -11,5 +11,16 @@ public class Main {
         Shape rectangle = new Rectangle(2,3);
         float rectanglePerimeter = rectangle.calculatePerimeter();
         System.out.println("rectanglePerimeter = " + rectanglePerimeter);
+        Shape3D cube = new Cube(2);
+        float cubeVolume = cube.calculateVolume();
+        System.out.println("cubeVolume = " + cubeVolume);
+        float cubePerimeter = cube.calculatePerimeter();
+        System.out.println("cubePerimeter = " + cubePerimeter);
+        int fillResult = cube.fill(7);
+        System.out.println("Fill 7 resutl: " + fillResult);
+        fillResult = cube.fill(8);
+        System.out.println("Fill 8 resutl: " + fillResult);
+        fillResult = cube.fill(9);
+        System.out.println("Fill 9 resutl: " + fillResult);
     }
 }

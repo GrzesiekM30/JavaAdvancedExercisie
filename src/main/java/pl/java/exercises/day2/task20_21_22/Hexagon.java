@@ -3,9 +3,9 @@ package pl.java.exercises.day2.task20_21_22;
 import java.util.Objects;
 
 public class Hexagon extends Shape{
-    private final int a;
+    private final float a;
 
-    public Hexagon(int a) {
+    public Hexagon(float a) {
         this.a = a;
     }
 
